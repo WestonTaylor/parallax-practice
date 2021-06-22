@@ -114,6 +114,10 @@ body, html {
     color: #F89194;
 }
 
+.navbar a {
+    padding: 5px;
+}
+
 @media screen and (max-width: 851px) {
     .parallax {
         height: 100%;
