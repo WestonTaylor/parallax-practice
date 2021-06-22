@@ -1,0 +1,149 @@
+.jumbotron {
+    margin: 0%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.footer {
+    background-color: #F54746;
+    text-align: center;
+}
+
+#top-title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.bg-dark {
+    width: 50%;
+}
+
+.navbar {
+    margin: 0%;
+    border: 0%;
+    vertical-align: top;
+}
+
+.bg1 {
+    background-image: url(../img/dc1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg2 {
+    background-image: url(../img/dc3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg3 {
+    background-image: url(../img/dc4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg4 {
+    background-image: url(../img/dc5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg5 {
+    background-image: url(../img/dc6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-dark {
+    opacity: 75%;
+}
+
+.dissapear {
+    opacity: 0%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    padding-right: 10px;
+}
+
+body, html {
+    height: 100%;
+  }
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#parallax-1 {
+    background-image: url(../img/dc1.jpg);
+}
+
+#parallax-2 {
+    background-image: url(../img/dc3.jpg);
+}
+
+#parallax-3 {
+    background-image: url(../img/dc4.jpg);
+}
+
+#parallax-4 {
+    background-image: url(../img/dc5.jpg);
+}
+
+#parallax-5 {
+    background-image: url(../img/dc6.jpg);
+}
+
+.footer-head {
+    color: whitesmoke;
+}
+
+.pink-text {
+    color: #F89194;
+}
+
+@media screen and (max-width: 851px) {
+    .parallax {
+        height: 100%;
+        background-attachment: none;
+        background-repeat: none;
+        background-size: none;
+      }
+
+      #parallax-1 {
+        background-image: none;
+    }
+    
+    #parallax-2 {
+        background-image: none;
+    }
+    
+    #parallax-3 {
+        background-image: none;
+    }
+    
+    #parallax-4 {
+        background-image: none;
+    }
+    
+    #parallax-5 {
+        background-image: none;
+    }
+
+    body, html {
+        height: auto;
+    }
+}
+
